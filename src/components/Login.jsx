@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Login.css'
 
 export default class Login extends Component {
     
@@ -9,10 +10,10 @@ export default class Login extends Component {
 
     render() {
         return (
-            <div>
+            <div className="login">
                 <form onSubmit={this.handleSubmit}>
-                    <input type="text" name="username" placeholder="Username" />
-                    <input type="password" name="password" placeholder="Password" />
+                    <input className="input" type="text" name="username" placeholder="Username" />
+                    <input className="input" type="password" name="password" placeholder="Password" />
                     <input type="submit" value="Login" />
                 </form>
                 <p className="small-text">Don't have an account? <a href="/">Sign up</a></p>

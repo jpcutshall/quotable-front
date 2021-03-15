@@ -1,0 +1,19 @@
+form {
+    display: block;
+    align-items: center;
+    caret-color: babyblue;
+}
+
+.login{
+    margin: 0.5em 0.5em;
+    height: 500px;
+}
+
+.input {
+    border: 1px solid babyblue;
+    border-radius: 9px;
+    padding: 0.5em 0.5em 0.5em;
+    margin: 0.5em 0.5em;
+    
+    
+}

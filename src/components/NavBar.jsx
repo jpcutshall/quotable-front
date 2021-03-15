@@ -8,9 +8,13 @@ export default class navBar extends Component {
                 <ul className="nav">
                     <li>
                         <a href="/">Home</a>
+                    </li>
+                    <li>
                         <a href="/">About</a>
+                        
+                    </li>
+                    <li>
                         <a href="/">Login/Sign Up</a>
-
                     </li>
                 </ul>
             </div>
