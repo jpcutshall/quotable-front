@@ -5,8 +5,13 @@ form {
 }
 
 .login{
-    margin: 0.5em 0.5em;
-    height: 500px;
+    background-image: url(./images/waterSplashCorrect.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 1em;
+   
+    
+
 }
 
 .input {
