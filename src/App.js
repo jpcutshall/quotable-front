@@ -1,6 +1,7 @@
-import NavBar from './components/NavBar'
-import Footer from './components/Footer'
-import Login from './components/Login'
+import NavBar from './components/layout/NavBar'
+import Footer from './components/layout/Footer'
+import Login from './components/auth/Login'
+import Register from './components/auth/Register'
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Login />
+      <Register />
       <Footer />
     </div>
   );
