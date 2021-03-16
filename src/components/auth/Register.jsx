@@ -5,7 +5,7 @@ export default class Register extends Component {
     render() {
         return (
             <div className="register">
-                <form onSubmit={this.handleSubmit}>
+                <form className="registerForm" onSubmit={this.handleSubmit}>
                     <input className="input" type="text" name="username" placeholder="Username" />
                     <input className="input" type="password" name="password" placeholder="Password" />
                     <input className="input" type="password" name="password-check" placeholder="Password Check" />

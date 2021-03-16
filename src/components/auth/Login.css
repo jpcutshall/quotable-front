@@ -1,17 +1,23 @@
-form {
-    display: block;
-    align-items: center;
-    caret-color: babyblue;
-}
+
 
 .login{
-    background-image: url(../images/waterSplashCorrect.png);
-    background-repeat: no-repeat;
-    background-position: center; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: column;
+    border: 1px solid blue;
+    border-radius: 9px;
     padding: 1em;
-   
-    
+    max-width: 550px;
 
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em;
 }
 
 .input {

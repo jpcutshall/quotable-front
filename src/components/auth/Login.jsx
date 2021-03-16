@@ -11,7 +11,7 @@ export default class Login extends Component {
     render() {
         return (
             <div className="login">
-                <form onSubmit={this.handleSubmit}>
+                <form className="loginForm" onSubmit={this.handleSubmit}>
                     <input className="input" type="text" name="username" placeholder="Username" />
                     <input className="input" type="password" name="password" placeholder="Password" />
                     <input className="button-primary" type="submit" value="Login" />

@@ -1,17 +1,24 @@
-form {
-    display: block;
-    align-items: center;
-    caret-color: babyblue;
-}
+
 
 .register{
-    background-image: url(../images/waterSplashCorrect.png);
-    background-repeat: no-repeat;
-    background-position: center; 
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: column;
+    border: 1px solid blue;
+    border-radius: 9px;
     padding: 1em;
-   
+    max-width: 550px;
     
 
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em;
 }
 
 .input {
