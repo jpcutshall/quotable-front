@@ -11,7 +11,7 @@ export default class Register extends Component {
                     <input className="input" type="password" name="password-check" placeholder="Password Check" />
                     <input className="button-primary" type="submit" value="Register" />
                 </form>
-                <p className="small-text">Already have an account? <a href="/">Login</a></p>
+                <p className="small-text">Already have an account? <a href="/login">Login</a></p>
             </div>
         )
     }

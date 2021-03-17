@@ -10,11 +10,11 @@ export default class navBar extends Component {
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="/">About</a>
+                        <a href="/about">About</a>
                         
                     </li>
                     <li>
-                        <a href="/">Login/Sign Up</a>
+                        <a href="/login">Login</a>
                     </li>
                 </ul>
             </div>

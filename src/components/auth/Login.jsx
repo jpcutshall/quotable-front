@@ -16,7 +16,7 @@ export default class Login extends Component {
                     <input className="input" type="password" name="password" placeholder="Password" />
                     <input className="button-primary" type="submit" value="Login" />
                 </form>
-                <p className="small-text">Don't have an account? <a href="/">Sign up</a></p>
+                <p className="small-text">Don't have an account? <a href="/register">Sign up</a></p>
             </div>
         )
     }
